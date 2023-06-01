@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up - Stack Overflow</title>
+  <link rel="stylesheet" href="images/logo.png">
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="vertical-nav">
+      <ul>
+        <li><a href="https://stackoverflow.com/">home</a></li>
+        <li><a href="">public</a>
+          <ul>
+            <li>questions</li>
+            <li>tags</li>
+            <li>users</li>
+            <li>companies</li>
+          </ul>
+        </li>
+        <li><a href="">collective</a>
+          <ul>
+            <li><a href="https://stackoverflow.com/collectives">explore collectives</a></li>
+          </ul>
+        </li>
+        <li><a href="">teams</a>
+          <p>stack overflow for teams- <br></p>
+          <p>start collaborating and sharing <br> organizational knowledge.</p>
+          <img src="images/teams.svg" alt="">
+          <button>create teams</button>
+          <p><a href="https://stackoverflow.co/teams/">why teams?</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="logo"><a href="https://stackoverflow.com/"><img src="images/stackoverflow.png" alt=""></a>
+    </div>
+    <div class="horizontal-nav">
+      <ul class="nav">
+        <li><a href="https://stackoverflow.co/">about</a> </li>
+        <li><a href=""></a> products</li>
+        <li><a href="https://stackoverflow.co/teams/">for teams</a> </li>
+      </ul>
+    </div>
+    <div class="search-bar">
+      <form action="/search" method="get">
+        <input type="text" class="search-input" name="query" placeholder=" Search...">
+      </form>
+    </div>
+    <div class="login">
+      <button id="login"><a
+          href="https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f">log in</a>
+      </button>
+      <button id="sign-up"><a href="https://stackoverflow.com/users/signup?ssrc=head">sign up</a> </button>
+    </div>
+  </div>
+  <div class="form">
+    <div class="join-community">
+      <h1 class="heading">join the stack overflow <br> community</h1>
+      <div class="join-community-items">
+        <img src="images/icons8-message-50.png" id="icons" alt="">
+        <p class="paragraph">unlock new privileges like voting and commenting</p>
+
+      </div>
+      <div class="join-community-items">
+        <img src="images/icons8-up-down-64.png" id="icons" alt="">
+        <p class="paragraph">save your favorite questions, answers, watch tags, and <br> more</p>
+      </div>
+      <div class="join-community-items">
+        <img src="images/icons8-price-tag-50.png" id="icons" alt="">
+        <p class="paragraph">get unstuck — ask a question</p>
+
+      </div>
+      <div class="join-community-items">
+        <img src="images/icons8-trophy-50.png" id="icons" alt="">
+        <p class="paragraph">earn reputation and badges</p>
+
+      </div>
+      <p class="paragraph" id="collaborate">collaborate and share knowledge with a private group for FREE. <br>
+        <a
+          href="https://stackoverflow.co/teams/?utm_source=so-owned&utm_medium=product&utm_campaign=free-50&utm_content=public-sign-up">Get
+          Stack Overflow for Teams free for up to 50 users.</a>
+    </div>
+    <div class="form-input">
+      <div><button class="google"><a
+            href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com&scope=profile%20email&redirect_uri=https%3A%2F%2Fstackauth.com%2Fauth%2Foauth2%2Fgoogle&state=%7B%22sid%22%3A1%2C%22st%22%3A%2259%3A3%3A1b8%2C16%3A161949af8254c873%2C10%3A1685622727%2C16%3Ab70561be15f68d30%2C897c6c0ef35757b0092f5fe866aa5b5c29f07e62e6a075ba32fab6e2eb40c7a0%22%2C%22cid%22%3A%22717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com%22%2C%22k%22%3A%22Google%22%2C%22ses%22%3A%228eab9911f40b4071b4eab971d74ac670%22%7D&response_type=code&service=lso&o2v=1&flowName=GeneralOAuthFlow"
+            style="text-decoration: none; color: grey;">sign
+            up with Google</a></button></div>
+      <div><button class="github"><a
+            href="https://github.com/login?client_id=01b478c0264a1fbd7183&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D01b478c0264a1fbd7183%26redirect_uri%3Dhttps%253A%252F%252Fstackauth.com%252Fauth%252Foauth2%252Fgithub%26response_type%3Dcode%26scope%3Duser%253Aemail%26state%3D%257B%2522sid%2522%253A1%252C%2522st%2522%253A%252259%253A3%253A1b8%252C16%253A2a83ec0f2b631c79%252C10%253A1685622796%252C16%253Ab31b435332b7d6d3%252Ce650f4ed4f02fe4ff4a4386c8661215719027129cca989dec0a9292cc535d0ef%2522%252C%2522cid%2522%253A%252201b478c0264a1fbd7183%2522%252C%2522k%2522%253A%2522GitHub%2522%252C%2522ses%2522%253A%252271d5bdcf326a42c3bfbda6a35a2e0bd1%2522%257D"
+            style="text-decoration: none; color: white;">sign
+            up with GitHub</a> </button></div>
+      <div><button class="facebook"><a
+            href="https://www.facebook.com/login.php?skip_api_login=1&api_key=145044622175352&kid_directed_site=0&app_id=145044622175352&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.0%2Fdialog%2Foauth%3Fclient_id%3D145044622175352%26scope%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstackauth.com%252Fauth%252Foauth2%252Ffacebook%26state%3D%257B%2522sid%2522%253A1%252C%2522st%2522%253A%252259%253A3%253A1b8%252C16%253A7327aa4e7d1bf8a9%252C10%253A1685622861%252C16%253Ad879e904a3f685d8%252C8efed836f00dd0f8be042b092d65fe5a4e45c9925e182300fb26f4c137d4afef%2522%252C%2522cid%2522%253A%2522145044622175352%2522%252C%2522k%2522%253A%2522Facebook%2522%252C%2522ses%2522%253A%252266e614fab2a44651aa29eb7b53161518%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D2e970213-42f6-417a-9992-7d6bc70e8726%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstackauth.com%2Fauth%2Foauth2%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522sid%2522%253A1%252C%2522st%2522%253A%252259%253A3%253A1b8%252C16%253A7327aa4e7d1bf8a9%252C10%253A1685622861%252C16%253Ad879e904a3f685d8%252C8efed836f00dd0f8be042b092d65fe5a4e45c9925e182300fb26f4c137d4afef%2522%252C%2522cid%2522%253A%2522145044622175352%2522%252C%2522k%2522%253A%2522Facebook%2522%252C%2522ses%2522%253A%252266e614fab2a44651aa29eb7b53161518%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0"
+            style="text-decoration: none; color: white;">sign
+            up with Facebook</a> </button></div>
+
+      <div class="login-form">
+        <form action="submit">
+          <div class="name">
+            <label for="display-name">display name</label> <br>
+            <input type="text" class="input">
+          </div>
+          <div class="email"><label for="email">email</label> <br>
+            <input type="text" class="input">
+          </div>
+          <div class="password"><label for="password">password</label> <br>
+            <input type="password" class="input">
+          </div>
+          <p class="passwords">passwords must contain at least eight characters, <br> including at least 1 letter and 1
+            number.</p>
+          <div class="captcha">
+            <input type="checkbox" id="captcha">
+            <label for="captcha">I'm not a robot</label> <br>
+            <img src="images/captcha.png" id="image" alt="">
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="my-checkbox">
+            <label for="my-checkbox">opt-in to receive occasional product <br> updates, user research invitations, <br>
+              company announcements,
+              and
+              digests.</label> <br>
+
+            <button class="signup"><a href="https://stackoverflow.com/users/signup"
+                style="text-decoration: none; color: white;">sign
+                up</a> </button>
+            <p id="signup">by clicking “Sign up”, you agree to our <a href="#">terms of <br> service</a> and acknowledge
+              that
+              you have read and <br>
+              understand our <a href="#">privacy
+                policy</a> and <a href="#">code of <br> conduct.</a>
+            </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
