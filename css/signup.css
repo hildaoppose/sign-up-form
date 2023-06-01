@@ -1,0 +1,263 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+}
+
+.vertical-nav {
+  overflow: hidden;
+  max-width: 50px;
+  max-height: 10px;
+}
+
+.vertical-nav::first-letter {
+  text-transform: capitalize;
+}
+
+.horizontal-nav {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: rgb(82, 89, 96);
+}
+
+.nav li {
+  margin-right: 25px;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(82, 89, 96);
+}
+
+.nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(82, 89, 96);
+}
+
+ul li {
+  text-decoration: none;
+}
+
+.search-input {
+  width: 600px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#login {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(225, 236, 244);
+  border: none;
+  border-radius: 5px;
+  color: rgb(57, 115, 157);
+  margin-right: 5px;
+}
+
+#login::first-letter {
+  text-transform: capitalize;
+}
+
+#sign-up {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(10, 149, 255);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#sign-up::first-letter {
+  text-transform: capitalize;
+}
+
+hr {
+  border-top: 1px solid rgb(225, 236, 244);
+}
+
+/* Form */
+.heading::first-letter {
+  text-transform: capitalize;
+}
+
+.join-community {
+  margin-left: 250px;
+  margin-top: 150px;
+}
+
+.join-community-items {
+  display: flex;
+}
+
+#collaborate {
+  font-size: 12px;
+  color: rgb(106, 115, 124);
+}
+
+.paragraph::first-letter {
+  text-transform: capitalize;
+}
+
+#icons {
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+}
+
+.form {
+  display: flex;
+  background-color: rgb(214, 217, 220);
+}
+
+.form-input {
+  display: block;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.login-form {
+  display: block;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.name {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.email {
+  width: 300px;
+  height: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  /* padding-top: 20px; */
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.password {
+  width: 300px;
+  height: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 300px;
+  height: 20px;
+}
+
+.google {
+  width: 400px;
+  background-color: #fff;
+  color: #000;
+  height: 40px;
+  border: 1px solid rgb(214, 217, 220);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.google::first-letter {
+  text-transform: capitalize;
+}
+
+.github {
+  width: 400px;
+  background-color: rgb(47, 51, 55);
+  color: #fff;
+  height: 40px;
+  border: 1px solid rgb(47, 51, 55);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.github::first-letter {
+  text-transform: capitalize;
+}
+
+.facebook {
+  width: 400px;
+  background-color: rgb(56, 84, 153);
+  color: #fff;
+  height: 40px;
+  border: 1px solid rgb(56, 84, 221530);
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.facebook::first-letter {
+  text-transform: capitalize;
+}
+
+.passwords {
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.passwords::first-letter {
+  text-transform: capitalize;
+}
+
+.captcha {
+  border: 1px solid grey;
+  margin-left: 80px;
+  margin-right: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.captcha::first-letter {
+  text-transform: capitalize;
+}
+
+#image {
+  width: 200px;
+  height: 100px;
+}
+
+.checkbox {
+  font-size: 12px;
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+.signup {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(10, 149, 255);
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#signup {
+  margin-bottom: 30px;
+}
+
+#signup::first-letter {
+  text-transform: capitalize;
+}
